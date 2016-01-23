@@ -7,6 +7,6 @@ public class TestSendMidi {
     @Test
     public void test(){
         SendMidi sendMidi = new SendMidi();
-        sendMidi.sendNotes(0, MIDDLE_C, 127);
+        sendMidi.sendToBlofeld();
     }
 }
